@@ -1,0 +1,13 @@
+<% layout('./layout') %>
+<% if (it.product) { %>
+  <h2>
+    <%= it.product.name %>
+  </h2>
+  <p>
+    <%= it.product.description %>
+  </p>
+  <a href="/nos-produits/edit/<%= it.product.id %>" class="btn btn-primary">Modifier produit</a>
+  <a href="/nos-produits/delete/<%= it.product.id %>" class="btn btn-danger">Supprimer</a>
+<% } else { %>
+  <p>Produit non trouvé.</p>
+<% } %>

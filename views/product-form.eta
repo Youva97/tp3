@@ -1,0 +1,31 @@
+<% layout('./layout') %>
+<form action="/nos-produits/edit/<%= it.product.id %>" method="post">
+  <div class="form-row">
+  <div class="form-group col-md-6">
+    <label for="description">Description longue</label>
+    <input type="text" class="form-control" name="description" value="<%= it.product.description %>" placeholder="Description longue">
+  </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="name">Nom du produit</label>
+      <input type="text" class="form-control" name="name" value="<%= it.product.name %>" placeholder="Nom du produit">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="type">Choisissez un type</label>
+      <select id="type" name="type" class="form-control">
+        <option <% if (it.product.type === 'email'){ %> selected <%}%>>email</option>
+        <option <% if (it.product.type === 'messagerie'){ %> selected <%}%>>messagerie</option>
+        <option <% if (it.product.type === 'réseau'){ %> selected <%}%>>réseau</option>
+        <option <% if (it.product.type === 'mobile'){ %> selected <%}%>>mobile</option>
+        <option <% if (it.product.type === 'cloud'){ %> selected <%}%>>cloud</option>
+        <option <% if (it.product.type === 'vpn'){ %> selected <%}%>>vpn</option>
+        <option <% if (it.product.type === 'stockage'){ %> selected <%}%>>stockage</option>
+        <option <% if (it.product.type === 'gestion'){ %> selected <%}%>>gestion</option>
+        <option <% if (it.product.type === 'personnel'){ %> selected <%}%>>personnel</option>
+        <option <% if (it.product.type === 'fichier'){ %> selected <%}%>>fichier</option>
+      </select>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Enregistrer</button>
+</form>

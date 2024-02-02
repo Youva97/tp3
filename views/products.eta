@@ -1,0 +1,26 @@
+<% layout('./layout') %>
+<div class="container-fluid">
+  <div class="row">
+    <div class="card text-bg-success p-3">
+      <div class="card-body">
+        <% it.types.forEach(function(type){ %>
+        <a href="/nos-produits?type=<%= type %>" class="types-link text-light"><%= type %></a>
+        <% }) %>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <% it.products.forEach(function(product){ %>
+    <div class="col-md-4 p-2">
+      <div class="card p-2" style="width: 18rem;">
+        <img src="<%= product.image %>" class="card-img-top img-fluid" alt="<%= product.name %>" style="max-height: 200px;">
+        <div class="card-body">
+          <h2 class="card-title"><%= product.name %></h2>
+          <p class="card-text"><%= product.description %></p>
+          <a href="/nos-produits/<%= product.id %>" class="btn btn-primary">Détails</a>
+        </div>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</div>

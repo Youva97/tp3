@@ -1,0 +1,30 @@
+<% layout('./layout') %>
+<div class="position-relative">
+  <div class="card center position-absolute top-50 start-50 translate-middle-x" style="width: 50rem;">
+    <img src="./cryptage_chiffrement.png" class="card-img-top" alt="...">
+    <h1>Bienvenue chez CryptoDataBase</h1>
+    <div>
+      <p class="card-text">Chers clients et passionnés de sécurité des données,
+      <p>Nous sommes ravis de vous accueillir chez CryptoDataBase, où votre sécurité et votre
+        confidentialité sont notre priorité absolue. Dans un monde où les données sont devenues l'une
+        des ressources les plus précieuses, nous nous engageons à vous fournir les solutions de cryptage
+        les plus avancées et les plus fiables.</p>
+      <p>Chez CryptoDataBase, nous comprenons l'importance cruciale de protéger vos informations
+        personnelles, commerciales et sensibles. C'est pourquoi nous avons développé une gamme de
+        logiciels de cryptage conçus pour sécuriser chaque aspect de vos communications et de vos
+        données.</p>
+      <p>Notre équipe d'experts, passionnée et dédiée, travaille sans relâche pour innover et améliorer
+        nos technologies, assurant ainsi que nos solutions restent à la pointe de la sécurité des
+        données. Nous sommes fiers de vous offrir des produits faciles à utiliser, extrêmement efficaces
+        et adaptés à une variété de besoins.</p>
+      <p>Nous vous invitons à explorer notre site Web pour découvrir nos produits et comprendre comment
+        nous pouvons vous aider à atteindre un niveau de sécurité sans précédent. N'hésitez pas à nous
+        contacter pour toute question ou pour obtenir des conseils personnalisés.</p>
+      <p>Merci de faire confiance à CryptoDataBase pour la protection de vos données. Ensemble, faisons de
+        la sécurité des données une réalité inébranlable.</p>
+      Cordialement,
+      L'équipe de CryptoDataBase</p>
+    </div>
+  </div>
+
+</div>

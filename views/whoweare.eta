@@ -1,0 +1,39 @@
+<% layout('./layout') %>
+
+<div class="position-relative">
+  <div class="card center position-absolute top-50 start-50 translate-middle-x" style="width: 80rem;">
+    <img src="./encryptionkey-2.webp" class="card-img-top" alt="...">
+    <h1>Historique de CryptoDataBase</h1>
+
+    <div>
+      <h2 class="card-text">Fondation et Vision (2024)</h2>
+      <p class="card-text">CryptoDataBase a été fondée en 2024 par Minéas Gaël et George-iréné Eric, des experts en cybersécurité passionnés par la protection des données. Leur vision était de créer une suite de logiciels de cryptage qui sécuriserait tous les aspects des communications et des données pour les entreprises et les particuliers.</p>
+    </div>
+
+    <div>
+      <h2 class="card-text">Développement des Premiers Produits</h2>
+      <p class="card-text">Le premier produit lancé par [Nom de la Société] était un logiciel de cryptage de messagerie, répondant à un besoin urgent de sécurité dans les communications électroniques. Ce produit a rapidement gagné en popularité en raison de sa facilité d'utilisation et de son efficacité.</p>
+    </div>
+
+    <div>
+      <h2 class="card-text">Expansion et Innovation</h2>
+      <p class="card-text">En réponse à la demande croissante, [Nom de la Société] a élargi sa gamme de produits pour inclure le cryptage de fichiers, le cryptage de disque dur et des solutions pour les appareils mobiles. Chaque nouvelle version de leurs produits intégrait les dernières avancées technologiques et répondait aux normes de sécurité les plus strictes.</p>
+    </div>
+
+    <div>
+      <h2 class="card-text">Partenariats et Reconnaissance</h2>
+      <p class="card-text">Au fil des ans, CryptoDataBase a établi des partenariats stratégiques avec des entreprises leaders dans le domaine de la technologie et de la sécurité. Ces alliances ont renforcé sa position sur le marché et ont conduit à plusieurs prix et reconnaissances dans l'industrie de la cybersécurité.</p>
+    </div>
+
+    <div>
+      <h2 class="card-text">Engagement envers la Sécurité et la Confidentialité</h2>
+      <p class="card-text">CryptoDataBase s'est toujours engagée à défendre la vie privée et la sécurité de ses clients. En plus de ses produits, l'entreprise a activement contribué à des initiatives de sensibilisation à la sécurité des données et a participé à des conférences et des forums sur la cybersécurité.</p>
+    </div>
+
+    <div>
+      <h2 class="card-text">Aujourd'hui et l'Avenir</h2>
+      <p class="card-text">Aujourd'hui, CryptoDataBase est reconnue comme un leader dans le domaine du cryptage de données, avec une clientèle mondiale et une réputation d'excellence. Alors que la société continue d'innover et de développer de nouvelles solutions, elle reste fidèle à sa mission originale de protéger les communications et les données dans un monde numérique en constante évolution.</p>
+    </div>
+  </div>
+
+</div>
