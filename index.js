@@ -193,7 +193,6 @@ app.get("/nos-produits/:id", async (req, res) => {
 app.get("/nos-produits/edit/:id", async (req, res) => {
   try {
     let productId = parseInt(req.params.id);
-
       
       let product = await Products.findByPk(productId, { include: 'type' });
 
@@ -275,8 +274,4 @@ app.get("/nos-produits/delete/:id", async (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
-
-
-
-
 
